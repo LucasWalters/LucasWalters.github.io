@@ -10,16 +10,30 @@
 		&.special {
 			text-align: center;
 		}
+		&#utrecht {
+			background-color: white;
+			background-attachment: fixed, fixed;
+			background-image: url(../../images/Utrecht.webp);
+			background-size: cover;
+			h2 {
+				color: white !important;
+			}
+		}
 	}
 
 	header {
+		h1 {
+			color: _palette(accent);
+		}
 		p {
 			font-family: _font(family-heading);
-			font-size: 1em;
+			font-size: 1.5em;
 			font-weight: _font(weight-heading-alt);
+			line-height: 1.1em;
 			letter-spacing: _font(kerning-heading);
-			margin-top: -0.5em;
+			margin-top: -1em;
 			text-transform: uppercase;
+			color: _palette(green);
 		}
 
 		&.major {

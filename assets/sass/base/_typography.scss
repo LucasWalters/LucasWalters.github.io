@@ -36,8 +36,9 @@
 		text-decoration: none;
 
 		&:hover {
-			border-bottom-color: _palette(accent);
-			color: _palette(accent) !important;
+			// border-bottom-color: _palette(accent);
+			border-color: _palette(green) !important;
+			color: _palette(green) !important;
 
 			strong {
 				color: inherit;
