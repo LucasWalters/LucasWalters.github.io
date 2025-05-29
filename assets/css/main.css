@@ -1387,6 +1387,7 @@ section#utrecht, article#utrecht {
   background-attachment: fixed, fixed;
   background-image: url(../../images/Utrecht.webp);
   background-size: cover;
+  background-position: center;
 }
 section#utrecht h2, article#utrecht h2 {
   color: white !important;
@@ -2619,6 +2620,7 @@ button:disabled,
     z-index: 1;
   }
   #sidebar .toggle:after {
+    background: rgba(222, 225, 226, 0.75);
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
@@ -2637,6 +2639,7 @@ button:disabled,
   border-bottom: solid 5px #D81F27;
   padding: 2.5em 1em 1em 0;
   position: relative;
+  height: 6.5em;
 }
 #header > * {
   -moz-flex: 1;
@@ -2644,10 +2647,14 @@ button:disabled,
   margin-bottom: 0;
 }
 #header .logo {
+  position: relative;
   border-bottom: 0;
-  color: inherit;
-  font-family: "Sofia Sans Condensed", "Share", "Roboto Slab", serif;
-  font-size: 1.125em;
+  height: 100%;
+  margin-left: 6em;
+}
+#header .logo img {
+  position: relative;
+  height: 100%;
 }
 #header .icons {
   text-align: right;
@@ -2658,13 +2665,6 @@ button:disabled,
   }
 }
 @media screen and (max-width: 736px) {
-  #header {
-    padding-top: 3.5em;
-  }
-  #header .logo {
-    font-size: 1.25em;
-    margin: 0;
-  }
   #header .icons {
     height: 5em;
     line-height: 5em;
