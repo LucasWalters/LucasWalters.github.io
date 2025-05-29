@@ -198,7 +198,7 @@
 		@include breakpoint('<=small') {
 			.toggle {
 				text-indent: 7.25em;
-				width: 7.25em;
+				width: 6em;
 
 				&:before {
 					// color: _palette(fg);
@@ -216,7 +216,7 @@
 					left: 1em;
 					position: absolute;
 					top: 1em;
-					width: 5em;
+					width: 4em;
 				}
 			}
 		}

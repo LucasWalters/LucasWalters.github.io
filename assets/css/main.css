@@ -2611,7 +2611,7 @@ button:disabled,
 @media screen and (max-width: 736px) {
   #sidebar .toggle {
     text-indent: 7.25em;
-    width: 7.25em;
+    width: 6em;
   }
   #sidebar .toggle:before {
     margin-left: -0.0625em;
@@ -2627,7 +2627,7 @@ button:disabled,
     left: 1em;
     position: absolute;
     top: 1em;
-    width: 5em;
+    width: 4em;
   }
 }
 
@@ -2650,7 +2650,7 @@ button:disabled,
   position: relative;
   border-bottom: 0;
   height: 100%;
-  margin-left: 6em;
+  margin-left: 5em;
 }
 #header .logo img {
   position: relative;
