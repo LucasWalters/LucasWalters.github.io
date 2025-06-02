@@ -9,9 +9,10 @@
 	#header {
 		@include vendor('display', 'flex');
 		border-bottom: solid 5px _palette(accent);
-		padding: 2.5em 1em 1em 0;
+		padding: 2.5em 2.5em 0 0;
+		// margin-bottom: 1em;
 		position: relative;
-		height: 6.5em;
+		height: 5.5em;
 
 		> * {
 			@include vendor('flex', '1');
@@ -21,11 +22,12 @@
 		.logo {
 			position: relative;
 			border-bottom: 0;
-			height: 100%;
+			height: 80%;
 			margin-left: 5em;
 			img {
 				position: relative;
 				height: 100%;
+				transform: translateY(-0.5em);
 			}
 		}
 

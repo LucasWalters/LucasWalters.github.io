@@ -1383,6 +1383,8 @@ section.special, article.special {
   text-align: center;
 }
 section#utrecht, article#utrecht {
+  padding-top: 2em !important;
+  padding-bottom: 8em !important;
   background-color: white;
   background-attachment: fixed, fixed;
   background-image: url(../../images/Utrecht.webp);
@@ -2637,9 +2639,9 @@ button:disabled,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px #D81F27;
-  padding: 2.5em 1em 1em 0;
+  padding: 2.5em 2.5em 0 0;
   position: relative;
-  height: 6.5em;
+  height: 5.5em;
 }
 #header > * {
   -moz-flex: 1;
@@ -2649,12 +2651,13 @@ button:disabled,
 #header .logo {
   position: relative;
   border-bottom: 0;
-  height: 100%;
+  height: 80%;
   margin-left: 5em;
 }
 #header .logo img {
   position: relative;
   height: 100%;
+  transform: translateY(-0.5em);
 }
 #header .icons {
   text-align: right;
