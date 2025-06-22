@@ -17,6 +17,9 @@
 			background-attachment: fixed, fixed;
 			background-size: cover;
 			background-position: center;
+			// @include orientation(portrait) {
+			// 	background-size: cover;
+			// }
 			h2 {
 				color: white !important;
 			}
