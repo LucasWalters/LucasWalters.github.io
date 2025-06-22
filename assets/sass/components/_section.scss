@@ -10,16 +10,21 @@
 		&.special {
 			text-align: center;
 		}
-		&#utrecht {
-			padding-top: 2em !important;
-			padding-bottom: 8em !important;
+		&.utrecht {
+			padding-top: 4em !important;
+			padding-bottom: 12em !important;
 			background-color: white;
 			background-attachment: fixed, fixed;
-			background-image: url(../../images/Utrecht.webp);
 			background-size: cover;
 			background-position: center;
 			h2 {
 				color: white !important;
+			}
+			&.utrecht-1 {
+				background-image: url(../../images/Utrecht.webp);
+			}
+			&.utrecht-2 {
+				background-image: url(../../images/dp-imgfull-utrechtavond.jpg);
 			}
 		}
 	}

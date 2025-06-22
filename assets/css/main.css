@@ -1382,17 +1382,22 @@ hr.major {
 section.special, article.special {
   text-align: center;
 }
-section#utrecht, article#utrecht {
-  padding-top: 2em !important;
-  padding-bottom: 8em !important;
+section.utrecht, article.utrecht {
+  padding-top: 4em !important;
+  padding-bottom: 12em !important;
   background-color: white;
   background-attachment: fixed, fixed;
-  background-image: url(../../images/Utrecht.webp);
   background-size: cover;
   background-position: center;
 }
-section#utrecht h2, article#utrecht h2 {
+section.utrecht h2, article.utrecht h2 {
   color: white !important;
+}
+section.utrecht.utrecht-1, article.utrecht.utrecht-1 {
+  background-image: url(../../images/Utrecht.webp);
+}
+section.utrecht.utrecht-2, article.utrecht.utrecht-2 {
+  background-image: url(../../images/dp-imgfull-utrechtavond.jpg);
 }
 
 header h1 {
@@ -1653,11 +1658,23 @@ input[type=radio] + label:before {
 }
 
 /* Image */
+img.testimonial-image {
+  width: 100%;
+}
+
 .image {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
   position: relative;
+}
+.image video {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid white;
+  outline: 5px solid #D81F27;
+  max-width: 100%;
 }
 .image img {
   border-radius: 0.375em;
@@ -2742,15 +2759,15 @@ button:disabled,
     -ms-flex-shrink: 0;
     flex-shrink: 0;
     margin: 0 0 4em 0;
-    height: 25em;
-    max-height: 50vh;
+    height: 44em;
+    max-height: 108vh;
     min-height: 18em;
     width: 100%;
   }
 }
 @media screen and (orientation: portrait) and (max-width: 480px) {
   #banner .image {
-    max-height: 35vh;
+    height: 38em;
   }
 }
 

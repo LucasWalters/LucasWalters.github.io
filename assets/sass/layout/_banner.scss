@@ -60,15 +60,16 @@
 				@include vendor('flex-grow', '0');
 				@include vendor('flex-shrink', '0');
 				margin: 0 0 (_size(element-margin) * 2) 0;
-				height: 25em;
-				max-height: 50vh;
+				height: 44em;//25em;
+				max-height: 108vh;//50vh;
 				min-height: 18em;
 				width: 100%;
 			}
 
 			@include breakpoint('<=xsmall') {
 				.image {
-					max-height: 35vh;
+					// max-height: 95vh;//35vh;
+					height: 38em;
 				}
 			}
 		}
